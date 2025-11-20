@@ -1,4 +1,29 @@
 {
-  "recommendations": ["astro-build.astro-vscode"],
-  "unwantedRecommendations": []
+  "recommendations": [
+    "astro-build.astro-vscode",
+    "bierner.emojisense",
+    "formulahendry.auto-rename-tag",
+    "firefox-devtools.vscode-firefox-debug",
+    "dsznajder.es7-react-js-snippets",
+    "pkief.material-icon-theme",
+    "ms-edgedevtools.vscode-edge-devtools",
+    "ms-vscode-remote.remote-wsl",
+    "streetsidesoftware.code-spell-checker",
+    "joshbolduc.commitlint",
+    "vivaxy.vscode-conventional-commits",
+    "editorconfig.editorconfig",
+    "tamasfe.even-better-toml",
+    "jimeh.executable-on-save",
+    "github.vscode-github-actions",
+    "bierner.github-markdown-preview",
+    "ecmel.vscode-html-css",
+    "visualstudioexptteam.vscodeintellicode",
+    "lottiefiles.vscode-lottie",
+    "motion.motion-vscode-extension",
+    "rpinski.shebang-snippets",
+    "foxundermoon.shell-format",
+    "timonwong.shellcheck",
+    "gruntfuggly.todo-tree",
+    "redhat.vscode-yaml"
+  ]
 }
