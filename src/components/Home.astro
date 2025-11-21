@@ -1,0 +1,49 @@
+---
+import {
+	Background,
+	Box,
+	Button,
+	Container,
+	Heading,
+	LineBreak,
+	Stack,
+} from '@pittorica/picto';
+---
+
+<Box
+	id="home"
+	style={{
+		display: 'flex',
+		justifyContent: 'center',
+		alignItems: 'center',
+		minHeight: '100vh',
+		position: 'relative',
+	}}
+>
+	<Background
+		client:load
+		variant="bubbles"
+		style={{
+			borderBottomRightRadius: '2rem',
+			borderBottomLeftRadius: '2rem',
+		}}
+	/>
+
+	<Container
+		size="xl"
+		style={{ position: 'relative', zIndex: 1, padding: '1rem' }}
+	>
+		<Stack gap="xxlarge">
+			<Heading variant="display" size="large" textAlign="center">
+				Pronto a costruire qualcosa di unico?
+				<LineBreak />
+				Iniziamo oggi!
+			</Heading>
+
+			<Stack direction={'row'} gap="xlarge" justify={'center'}>
+				<Button size="large">Contattami</Button>
+				<Button size="large" variant="tonal">Scopri di più</Button>
+			</Stack>
+		</Stack>
+	</Container>
+</Box>

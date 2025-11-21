@@ -1,0 +1,62 @@
+---
+import { Box, Container, Grid, Heading, Stack } from '@pittorica/picto';
+---
+
+<Box
+	id="about"
+	style={{
+		position: 'relative',
+		minHeight: '80vh',
+		display: 'flex',
+		alignItems: 'center',
+		justifyContent: 'center',
+	}}
+>
+	<Container size="full">
+		<Grid columns={{ mobile: 1, tablet: 2 }} style={{ gap: '4rem' }}>
+			<Box
+				style={{
+					backgroundImage: 'url(/assets/backgrounds/abstract-colors-3.webp)',
+					backgroundSize: 'cover',
+					backgroundPosition: 'center',
+					display: 'flex',
+					justifyContent: 'center',
+					alignItems: 'center',
+					padding: '1rem',
+					borderRadius: '0.5rem',
+					gap: '4rem',
+				}}
+			>
+				<img
+					alt="me"
+					src="/assets/me/portrait.webp"
+					style={{
+						margin: '0 auto',
+						borderRadius: '1rem',
+						maxHeight: '80%',
+						maxWidth: '100%',
+					}}
+				/>
+			</Box>
+
+			<Box
+				style={{
+					display: 'flex',
+					alignItems: 'center',
+					justifyContent: 'flex-start',
+				}}
+			>
+				<Stack gap="large">
+					<Heading variant="display" size="medium"> 👋 </Heading>
+					<Heading variant="display" size="medium">
+						Ciao! Sono Davide,
+					</Heading>
+					<Heading variant="display" size="small">
+						Programmatore Full-Stack e Specialista di Strumenti per la
+						programmazione.
+					</Heading>
+				</Stack>
+			</Box>
+		</Grid>
+	</Container>
+</Box>
